@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="../styles.css">
+     <link rel="icon" type="image/x-icon" href="../favicon-16x16.png">
+
+    <title>HTML Table Examples</title>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <article>
+   <header>
+        <h1>Adam Ahmadzai</h1>
+     <nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../resume.html">Resume</a></li>
+    <li><a href="../courses.html">Courses</a></li>
+    <li>
+      <a href="index.html">Examples</a>
+      <ul>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="../gallery/index.html">Gallery</a>
+      <ul>
+        <li><a href="../gallery/photo1.html">Photo 1 </a></li>
+        <li><a href="../gallery/photo2.html">Photo 2 </a></li>
+        <li><a href="../gallery/photo3.html">Photo 3 </a></li>
+      </ul>
+    </li>
+    <li><a href="../design/index.html">Design</a></li>
+  </ul>
+</nav>
+
+  
+     
+     </header>
+      
+    <h2>HTML Form Example</h2>
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+      <fieldset>
+        <legend>Login</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Origin</legend>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required>
+      
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Interests <em>(Choose as many as you want)</em></legend>
+        <label><input type="checkbox" name="interests" value="skiing"> Skiing</label><br>
+        <label><input type="checkbox" name="interests" value="biking"> Biking</label><br>
+        <label><input type="checkbox" name="interests" value="running"> Running</label><br>
+        <label><input type="checkbox" name="interests" value="sleeping"> Sleeping</label><br>
+        <label><input type="checkbox" name="interests" value="reading"> Reading</label><br>
+
+        <label for="sleepSlider">Interest level in competitive sleeping:</label><br>
+        <label>Low</label>
+        <input type="range" id="sleepSlider" name="sleepQuality" min="1" max="10">
+        <label>High</label><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Class</legend>
+        <label><input type="radio" name="class" value="freshman"> Freshman</label><br>
+        <label><input type="radio" name="class" value="sophomore"> Sophomore</label><br>
+        <label><input type="radio" name="class" value="junior"> Junior</label><br>
+        <label><input type="radio" name="class" value="senior"> Senior</label><br>
+
+        <label for="gradYear">Graduation year:</label>
+        <select id="gradYear" name="graduationYear" required>
+            <option value="">Select Graduation Year</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+            <option value="2028">2028</option>
+        </select><br>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+     <footer>Copyright &copy; 2024, <a href="mailto:ak19ahma@siena.edu">Adam Ahmadzai</a></footer>
+      </article>
+  </body>
+</html>
